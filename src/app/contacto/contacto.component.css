@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor-principal {
+  background-color: lightgoldenrodyellow;
+
+  min-height: 100vh;
+  display: flex;
+}
+
+.formulario {
+  /*defino el tamanio*/
+  width: 90%;
+  max-width: 450px;
+  /*posicionanmiento*/
+  margin: auto;
+  margin-top: 20px;
+  background-image: url(https://i.pinimg.com/564x/b3/af/fc/b3affce31078d4ebf31ec619744aa4a5.jpg);
+
+  /*color*/
+
+  /*interior formulario*/
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+}
+.titulo {
+  color: #fff;
+  min-width: 20%;
+  margin-bottom: 20px;
+  text-shadow: 0 0 3px black;
+  font-size: 40px;
+}
+.contenedor-formulario {
+  display: grid;
+}
+.items-formulario {
+  position: relative;
+  margin-bottom: 20px;
+  --color: #5757577e;
+}
+
+.inputForm {
+  width: 90%;
+  height: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+textarea {
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid;
+}
+.boton {
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: 20px;
+}
