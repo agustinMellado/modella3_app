@@ -1,4 +1,5 @@
-
+<!--------------------------
+ 
 <div class="container-fluid overflow-auto " >
 
 
@@ -94,8 +95,24 @@
     </div>
     
     
-    
 
 
      
 </div>
+ -------------------------------------->
+ <div class="container-fluid overflow-auto " >
+
+<div class="row pt-3">
+  <div class="col-md-3 col-sm-6 col-lg-4" *ngFor="let producto of productos">
+    <div class="card" *ngIf="producto.disponibilidad">
+      <!-- property binding -->
+      <img [src]="producto.url" class="card-img-bottom" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{producto.nombre}}</h5>
+        
+  </div>
+
+</div>
+
+
+ </div>
