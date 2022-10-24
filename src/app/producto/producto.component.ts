@@ -9,7 +9,7 @@ export class ProductoComponent implements OnInit {
   productos = [
     {
       nombre: 'Pikachu',
-      url: 'https://images.cults3d.com/zyVC4265diQQ9gx2iTbKQtedTuA=/516x516/https://files.cults3d.com/uploaders/14388486/illustration-file/7acfb94e-2201-4f5f-aa51-64198f21adfb/Pikachu_1.png#2',
+      url:'https://http2.mlstatic.com/D_NQ_NP_862487-MLA45588786267_042021-O.jpg',
       disponibilidad: true,
     },
     {
